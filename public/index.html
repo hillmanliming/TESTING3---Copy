@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vote Here</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      .vote-button {
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Vote for A or B</h1>
+    <button class="vote-button" id="voteA">Vote A</button>
+    <button class="vote-button" id="voteB">Vote B</button>
+  </body>
+</html>
